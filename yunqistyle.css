@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+tr:nth-child(even) {background-color: #FBD6CF;}
+tr:nth-child(odd)  {background-color: #CDE5F9;}
+
+body {
+  background-color: lightyellow;}
+
+ 

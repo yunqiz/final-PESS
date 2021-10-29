@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav{
+    width:960px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-size:19px;
+    background-color: #ADBEFA;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+nav > a{
+    display:flex;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-weight: bolder;
+    height:15px;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    width:20.8%;
+    text-align:center;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+}
+nav > a:hover{
+    background-color: #FAC0AD;
+}
+
